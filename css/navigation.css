@@ -1,0 +1,34 @@
+.navbar {
+  background: #353A3F;
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+  padding: 0 15%;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  text-decoration: none;
+  color: #9A9D9F;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15%;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style-type: none;
+}
+
+.navbar-item {
+  text-decoration: none;
+  font-size: 15pt;
+  color: #9A9D9F !important;
+}
+
+.navbar-item:hover {
+  color: #9A9D9F !important;
+}

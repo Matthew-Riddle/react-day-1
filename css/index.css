@@ -1,0 +1,57 @@
+@import './navigation.css';
+@import './section.css';
+
+body {
+  color: #fff;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto'
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.p-4 {
+  padding: 1em !important;
+}
+
+#home {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../img/header.jpg');
+  background-repeat: none;
+  background-size: cover;
+}
+
+.dark-overlay {
+  background-color: rgba(0,0,0,0.7);
+  width: 100%;
+  height: 100%;
+}
+
+.home-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100% !important;
+  padding: 0 15%;
+}
+
+.card {
+  border-radius: 5px;
+}
+
+#home .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}

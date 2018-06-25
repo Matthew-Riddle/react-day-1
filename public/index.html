@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=`, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Day-1 Notes</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+    crossorigin="anonymous">
+  <!-- Compressed CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body class="has-navbar-fixed-top">
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#">
+        CreationLab
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <a href="#" class="navbar-item">
+          Home
+        </a>
+        <a href="#create" class="navbar-item">
+          Create
+        </a>
+        <a href="#explore" class="navbar-item">
+          Explore
+        </a>
+        <a href="#share" class="navbar-item">
+          Share
+        </a>
+        <a class="navbar-item" onclick="showModal()">
+          Contact
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div id="contactModal" class="modal">
+    <div class="modal-background" onclick="hideModal()"></div>
+    <div class="modal-content">
+      <h1>Test</h1>
+    </div>
+    <button class="modal-close is-large" aria-label="close" onclick="hideModal()"></button>
+  </div>
+
+  <section id="home">
+    <div class="dark-overlay">
+      <div class="home-inner">
+        <div class="columns">
+          <div class="column is-8">
+            <div class="content is-medium">
+              <h1 class="has-text-white is-size-2 has-text-weight-normal">
+                Build
+                <strong class="has-text-white is-size-2">social profiles</strong> and gain revenue and
+                <strong class="has-text-white is-size-2">profits</strong>
+              </h1>
+              <div class="d-flex flex-row">
+                <div class="p-4">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="p-4">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sequi ea totam. Sit ad repellat ipsum
+                </div>
+              </div>
+              <div class="d-flex flex-row">
+                <div class="p-4">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="p-4">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sequi ea totam. Sit ad repellat ipsum
+                </div>
+              </div>
+              <div class="d-flex flex-row">
+                <div class="p-4">
+                  <i class="fa fa-check"></i>
+                </div>
+                <div class="p-4">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sequi ea totam. Sit ad repellat ipsum
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column-is-4">
+            <div class="card has-background-info">
+              <div class="card-content">
+                <h3 class="is-size-3 has-text-white has-text-centered">Sign Up Today</h3>
+                <p class="is-size-5 has-text-white has-text-centered p-4">Please fill out this form to register</p>
+                <form>
+                  <div class="field">
+                    <div class="control">
+                      <input class="Medium input" type="text" placeholder="Username">
+                    </div>
+                  </div>
+                  <div class="field">
+                    <div class="control">
+                      <input class="Medium input" type="email" placeholder="Email">
+                    </div>
+                  </div>
+                  <div class="field">
+                    <div class="control">
+                      <input class="Medium input" type="password" placeholder="Password">
+                    </div>
+                  </div>
+                  <div class="field">
+                    <div class="control">
+                      <input class="Medium input" type="password" placeholder="Confirm Password">
+                    </div>
+                  </div>
+                  <input type="submit" class="button is-outlined is-white is-fullwidth" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="create" class="section create is-paddingless">
+    <div class="header has-background-dark">
+      <div class="content is-large">
+        <h1 class="has-text-white">Create</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae sequi, dicta fugiat quia minima earum nisi</p>
+        <a href="#" class="button is-outlined is-info">Find Out More</a>
+      </div>
+    </div>
+    <div class="body p-4">
+      <img src="./img/create.jpg">
+      <div class="content has-text-dark">
+        <h3>Share What You Create</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente fuga doloribus ducimus, est quas eveniet alias
+          excepturi culpa consectetur repudiandae quia, illo. Soluta, asperiores vitae!</p>
+        <div class="d-flex flex-row">
+          <div class="p-4 align-self-start">
+            <i class="dark fa fa-check"></i>
+          </div>
+          <div class="p-4 align-self-end">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sequi ea totam. Sit ad repellat ipsum
+          </div>
+        </div>
+        <div class="d-flex flex-row">
+          <div class="p-4 align-self-start">
+            <i class="dark fa fa-check"></i>
+          </div>
+          <div class="p-4 align-self-end">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sequi ea totam. Sit ad repellat ipsum
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="explore" class="section explore is-paddingless">
+    <div class="header has-background-link">
+      <div class="content is-large">
+        <h1 class="has-text-white">Explore</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae sequi, dicta fugiat quia minima earum nisi</p>
+        <a href="#" class="button is-outlined is-white">Find Out More</a>
+      </div>
+    </div>
+    <div class="body has-background-dark p-4">
+      <div class="content has-text-white">
+        <h3>Share What You Create</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente fuga doloribus ducimus, est quas eveniet alias
+          excepturi culpa consectetur repudiandae quia, illo. Soluta, asperiores vitae!</p>
+        <div class="d-flex flex-row">
+          <div class="p-4 align-self-start">
+            <i class="light fa fa-check"></i>
+          </div>
+          <div class="p-4 align-self-end">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sequi ea totam. Sit ad repellat ipsum
+          </div>
+        </div>
+        <div class="d-flex flex-row">
+          <div class="p-4 align-self-start">
+            <i class="light fa fa-check"></i>
+          </div>
+          <div class="p-4 align-self-end">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sequi ea totam. Sit ad repellat ipsum
+          </div>
+        </div>
+      </div>
+      <img src="./img/explore.jpg">
+    </div>
+  </section>
+
+  <section id="share" class="section share is-paddingless">
+    <div class="header has-background-link">
+      <div class="content is-large">
+        <h1 class="has-text-white">Share</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae sequi, dicta fugiat quia minima earum nisi</p>
+        <a href="#" class="button is-outlined is-white">Find Out More</a>
+      </div>
+    </div>
+    <div class="body p-4">
+      <img src="./img/share.jpg">
+      <div class="content has-text-dark">
+        <h3>Share What You Create</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente fuga doloribus ducimus, est quas eveniet alias
+          excepturi culpa consectetur repudiandae quia, illo. Soluta, asperiores vitae!</p>
+        <div class="d-flex flex-row">
+          <div class="p-4 align-self-start">
+            <i class="dark fa fa-check"></i>
+          </div>
+          <div class="p-4 align-self-end">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sequi ea totam. Sit ad repellat ipsum
+          </div>
+        </div>
+        <div class="d-flex flex-row">
+          <div class="p-4 align-self-start">
+            <i class="dark fa fa-check"></i>
+          </div>
+          <div class="p-4 align-self-end">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque sequi ea totam. Sit ad repellat ipsum
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script type="text/javascript" src="./js/index.js"></script>
+</body>
+
+</html>
